@@ -1,0 +1,63 @@
+.todo-app {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.add-todo {
+  margin-left: 0.5rem;
+}
+
+.todo-list {
+  margin-top: 1rem;
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  max-width: 350px;
+}
+
+.todo-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputMaxLength {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.inputTodo {
+  margin-left: 10px;
+}
+
+.todo-item {
+  font-family: monospace;
+  cursor: pointer;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.todo-item__text--completed {
+  text-decoration: line-through;
+  color: lightgray;
+}
+
+.label {
+  text-align: center;
+}
+
+.filter {
+  padding: 0.3rem 0;
+  margin: 0 0.3rem;
+  cursor: pointer;
+}
+
+.filter--active {
+  padding: 5px;
+  background: black;
+  color: white;
+}
